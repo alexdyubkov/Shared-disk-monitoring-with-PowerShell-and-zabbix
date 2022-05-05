@@ -9,5 +9,6 @@ But it can be done using **PowerShell** script and sending results(push) to **Za
 
 
 ### To do it - 2 things should be done:
-a)preparations in zabbix. Check  preparations.png<br>
-b)script should be created. Check queued_files_checker.ps1
+a)preparations in zabbix. Check  [Preparations.png](https://github.com/alexdyubkov/Shared-disk-monitoring-with-PowerShell-and-zabbix/blob/main/Preparations.png)
+<br>
+b)script should be created. Check [queued_files_checker.ps1](https://github.com/alexdyubkov/Shared-disk-monitoring-with-PowerShell-and-zabbix/blob/main/queued_files_checker.ps1)
