@@ -3,7 +3,7 @@
 Zabbix can't monitor files on shared disks by itself. 
 
 ## Solution:
-'''dif
+'''diff
 + But it can be done using **PowerShell** script and sending results(push) to **Zabbix graphs**. Alerts can be sent to **Slack**.
 '''
 
