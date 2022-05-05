@@ -3,7 +3,9 @@
 Zabbix can't monitor files on shared disks by itself. 
 
 ## Solution:
-But it can be done using **PowerShell** script and sending results(push) to **Zabbix graphs**. Alerts can be sent to **Slack**.
+<div class="alert alert-primary" role="alert">
+  But it can be done using **PowerShell** script and sending results(push) to **Zabbix graphs**. Alerts can be sent to **Slack**.
+</div>
 
 ### To do it - 2 things should be done:
 a)preparations in zabbix. Check  preparations.png<br>
