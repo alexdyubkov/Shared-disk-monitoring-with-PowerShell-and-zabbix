@@ -66,7 +66,7 @@ Invoke-Expression $send_to_zabbix_graph
 ​
 ​
 $body = ConvertTo-Json @{
-    text = "Number of queued faxes on $hostname in $item is:  $num_of_files. The trigger is: $trigger_number_files. Link to the board: https://zabbix.idt.net/graphs.php?form=update&graphid=757759&filter_hostids%5B0%5D=19080 "
+    text = "Number of queued faxes on $hostname in $item is:  $num_of_files. The trigger is: $trigger_number_files. Link to the board: https://zabbix.xxx.net/link to your zabbix graph "
     color = "#142954"
 }
 $post_to_slack_channel = 'Invoke-RestMethod -uri $uriSlack -Method Post -body $body -ContentType "application/json" | Out-Null'
@@ -75,7 +75,7 @@ $post_to_slack_channel = 'Invoke-RestMethod -uri $uriSlack -Method Post -body $b
 ​
 ​
 $body_fail_case = ConvertTo-Json @{
-    text = "Script failed for some reason, please ask NOC to check "
+    text = "Script failed for some reason, please ask tech team to check "
     color = "#142954"
 }
 $post_to_slack_channel_fail_case = 'Invoke-RestMethod -uri $uriSlack -Method Post -body $body_fail_case -ContentType "application/json" | Out-Null'
